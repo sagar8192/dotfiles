@@ -1,0 +1,19 @@
+[core]
+    excludesfile = /nail/home/sagarp/.gitignore_global
+[grep]
+    linenumbers = true
+[alias]
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    ci = commit
+    st = status
+    br = branch
+    df = diff
+    unstage = reset HEAD --
+    last = log -1 HEAD
+    append = commit --amend -C HEAD
+    gr = grep
+    pohf = push origin HEAD -f
+    poh = push origin HEAD
+    pom = pull origin master
+    au = add -u
+    resetm = reset --hard origin/master
